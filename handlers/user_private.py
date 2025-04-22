@@ -22,9 +22,9 @@ async def busket(message: types.message):
 async def donat(message: types.message):
     await (message.answer('Плати'))
 
-@user_router.message(F.text.lower().contains('стои')|F.text.lower().contains('цен'))
-async def echo(message: types.Message):
-    await(message.answer("Только команды!"))
+# @user_router.message(F.text.lower().contains('стои')|F.text.lower().contains('цен'))
+# async def echo(message: types.Message):
+#     await(message.answer("Только команды!"))
     # user_text=message.text
     # await (message.answer(user_text))
 
